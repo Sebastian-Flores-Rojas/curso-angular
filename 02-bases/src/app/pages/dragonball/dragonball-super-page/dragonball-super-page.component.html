@@ -1,0 +1,14 @@
+<h1>DragonBall Page</h1>
+<hr>
+
+<section class="row">
+  <div class="col-12 col-sm-6">
+    <dragonball-character-add (newCharacter)="dragronballService.addCharacter($event)"/>
+  </div>
+
+  <div class="col-12 col-sm-6">
+
+    <dragonball-character-list [characters]="dragronballService.characters()" listName="Listado de personajes"/>
+
+  </div>
+</section>

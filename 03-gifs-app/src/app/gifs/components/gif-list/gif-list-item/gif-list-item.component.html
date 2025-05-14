@@ -1,5 +1,4 @@
-@for (item of items; track $index) {
 <div>
-  <img class="h-auto max-w-full rounded-lg" src="{{item.src}}" alt="">
+  <img class="h-auto max-w-full rounded-lg" [src]="imageUrl()" alt="">
 </div>
-}
+

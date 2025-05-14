@@ -9,7 +9,6 @@ import { GifListItemComponent } from "./gif-list-item/gif-list-item.component";
 })
 export class GifListComponent {
 
-  items = input.required<string[]>()
+  gifs = input.required<string[]>();
 
-  imageUrl: string[] = !this.items;
 }

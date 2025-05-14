@@ -24,8 +24,6 @@ const imageUrls: string[] = [
 })
 export default class TrendingPageComponent {
 
-  items: string[] = [];
-
-  imageUrls = signal(this.items);
+  gifs = imageUrls;
 
 }
